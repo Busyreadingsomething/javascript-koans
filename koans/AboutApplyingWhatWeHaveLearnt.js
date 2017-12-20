@@ -65,7 +65,7 @@ describe("About Applying What We Have Learnt", function() {
 
   /*********************************************************************************/
    it("should count the ingredient occurrence (imperative)", function () {
-    var ingredientCount = { "{ingredient name}": 0 };
+    var ingredientCount = {};
 
     for (i = 0; i < products.length; i+=1) {
         for (j = 0; j < products[i].ingredients.length; j+=1) {
